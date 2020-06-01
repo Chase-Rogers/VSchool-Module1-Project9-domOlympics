@@ -1,0 +1,60 @@
+#header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name {
+    color: peachpuff;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 10px 0px;
+    padding: 20px;
+}
+
+#main {
+    margin: 30px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.message {
+    padding: 5px;
+}
+
+.left {
+    align-self: flex-start;
+}
+
+.right {
+    align-self: flex-end;
+}
+
+.theme-one.left {
+    background-color: burlywood;
+}
+
+.theme-one.right {
+    background-color: lightblue;
+}
+
+.theme-two.left {
+    background-color: red;
+}
+
+.theme-two.right {
+    background-color: green;
+}
+
+.theme-three.left {
+    background-color: black;
+    color: white;
+}
+
+.theme-three.right {
+    background-color: orange;
+}
